@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "pva-chatbot",
+    "libraryId": "56af7439-4238-46da-b196-801db70ee12a",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "pva-chatbot",
+    "solutionShortDescription": "pva-chatbot description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

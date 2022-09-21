@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://microsoft.sharepoint.com/teams/dev_WAMHackathon2/SitePages/Employee-onboarding-team-home.aspx",
+      "customActions": {
+        "d94653ea-4742-4907-94d9-068f4b1af183": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "pvaChatbot": {
+      "pageUrl": "https://microsoft.sharepoint.com/teams/dev_WAMHackathon2/SitePages/Employee-onboarding-team-home.aspx",
+      "customActions": {
+        "d94653ea-4742-4907-94d9-068f4b1af183": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
